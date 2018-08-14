@@ -1,0 +1,311 @@
+*{
+    margin-bottom: 0;
+}
+container{
+    max-width: 1170px;
+}
+.fa-facebook{
+        font-size: 20px;
+        color:white;
+        background-color: darkblue;
+        border:solid 2px darkblue;
+        padding: 5px 9px;
+        border-radius: 8px;
+    }
+    .fa-instagram{
+        font-size: 20px;
+        color:white;
+        background-color: brown;
+        border:solid 2px brown;
+        padding: 5px;
+        border-radius: 8px;
+    }
+    .fa-twitter{
+        font-size: 20px;
+        color:white;
+        background-color: skyblue;
+        border:solid 2px skyblue;
+        padding: 5px;
+        border-radius: 8px;
+    }
+    header{
+        background: white;
+        color:white;
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+    }
+ .main{
+        display: inline-block;
+        width: 100%;
+    }
+.name{
+        float: left;
+        padding: 20px;
+        color:black;
+    animation-delay: 2000;
+    }
+ .tagline{
+        float: right;
+        padding: 20px;
+        
+    }
+    .nav{
+
+         overflow: hidden;
+  background-color: #585858;
+    }
+    .nav li{
+        display: block;
+        float: left;
+        color: white;
+        padding: 15px 70px;
+       font-family:sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        letter-spacing: 2px;
+    }
+    .nav li:hover{
+        background: linear-gradient(to right, #585858 ,#ffdb99);
+    }
+
+.bgimg1{
+     background: url(http://localhost/business/images/chicago-night-city-view-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    height: 700px;
+}
+.bgimg2{
+
+     background: url(http://localhost/business/images/Closeup_Business_Hands_Handshake_519854_1280x644.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+   height: 400px;
+}
+.bgimg3{
+     background-image: url(http://localhost/business/images/business-layout-full-page-3778.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    height: 800px;
+}
+.text1{
+    text-align: center;
+    width: 50%;
+    background-color:  rgba(0, 0, 0, 0.6);
+    height:inherit;
+    color:white;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 5px;
+    border-bottom-color: none;
+    height:inherit;
+}
+.text2{
+    
+    text-align: center;
+    width: 50%;
+    background:linear-gradient(to right, #ffdb99,white);
+    height:inherit;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.text22{
+    color:black;
+    padding: 200px; 20px;
+    opacity: 1;
+}
+
+
+.text11{
+    color:white;
+    padding: 180px 20px;
+    opacity: 1;
+    animation-delay: 7000;
+}
+.text111{
+    color:white;
+    padding: 80px 20px;
+    opacity: 1;
+    padding-bottom: 0;
+}
+.vision{
+    background-color: #333;
+    color:white;
+    letter-spacing: 1px;
+}
+.text3{
+    color:white;
+    padding: 50px 70px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    height: inherit;
+}
+.text4{
+    text-align: center;
+    float: left;
+    width: 40%;
+    background-color: black;
+     background:  rgba(0, 0, 0, 0.8);
+    height:inherit;
+    color:white;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 5px;
+    border-bottom-color: none;
+    height:800px;
+}
+.text44{
+    float:right;
+    text-align: left;
+    float: left;
+    width: 60%;
+    background-color: black;
+     background:  rgba(0, 0, 0, 0.6);
+    height:inherit;
+    color:white;
+    font-family: serif;
+    
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-bottom-color: none;
+    height:800px;
+}
+.top{
+    width: 100%;
+    background-color: #282828;
+}
+
+.first{
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+}
+.second{
+    display: inline-block;
+        width: 100%;
+    background-color: #333;
+    color: white;
+/*    padding: 10px;*/
+}
+footer{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+}
+    .ri{
+        float: right;
+        padding: 10px;
+    }
+    .le{
+        float: left;
+        padding: 10px;
+    }
+.mainfooter{
+    position: inherit;
+}
+.bullets{
+    float: right;
+    width: 50%;
+}
+.bullets1{
+    padding:5%;
+    float: right;
+    width: 50%;
+}
+table{
+    width: 100%;
+    float: right;
+    height: 70%;
+    margin: 0;
+}
+td{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+tr{
+    height:70px;
+}
+.one
+{
+    width: 100%;
+    display: flex;
+}
+dd{
+    
+    margin-left: 0;
+}
+dt{
+    display: list-item;
+    list-style-type:square;
+    color: orange;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.slacks{
+    width: 100%;
+    display: inline-block;
+}
+.slack{
+    width: 40%;
+    height:inherit;
+/*    border-style: solid;*/
+    margin: 5%;
+    float: left;
+}
+.cardimgs{
+    text-align: center;
+    padding: 20px;
+    width: 100px;
+}
+    
+}
+.lb{
+    padding: 20px;
+    font-family:inherit;
+    font-weight: bold;
+}
+.details{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+    color: gray;
+    text-align: center;
+}
+form{
+    margin-top: 70px;
+}
+input[type=text], input[type=email],textarea {
+    width: 100%;
+    padding: 4px 20px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+}
+input[type=submit]
+{
+    background: black;
+    color: aliceblue;
+    border: none;
+    height: 50px;
+    width:100px;
+    font-family: sans-serif;
+}
